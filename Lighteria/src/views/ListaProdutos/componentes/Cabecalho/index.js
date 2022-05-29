@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {View, StyleSheet, Text, Image} from 'react-native';
 
 const Cabecalho = () => {
   return (
@@ -28,10 +28,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: 24,
+    paddingVertical: 16,
+    paddingHorizontal: 6
   },
   titulo: {
-    fontFamily: 'OpenSans-ExtraBold',
+    fontFamily: 'OpenSans-Bold',
     fontSize: 28,
   },
   containerSacola: {
@@ -49,7 +50,7 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   containerDescricao: {
-    paddingHorizontal: 16,
+    // paddingHorizontal: 16,
   },
   containerTexto: {
     flexDirection: 'row',
